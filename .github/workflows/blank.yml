@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>African Development Bank</title>
+</head>
+<body>
+    <header>
+        <h1>African Development Bank</h1>
+    </header>
+
+    <main>
+        <p>This is the Official Website for African Development Bank.</p>
+
+        <h2>Registration Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+
+            <input type="submit" value="Register">
+        </form>
+
+        <h2>User Information</h2>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+            </tr>
+            <tr>
+                <td>Admin </td>
+                <td>mupamwa@gmail.com</td>
+                <td>+254715652950</td>
+            </tr>
+            <tr>
+                <td>Paul Musyoka</td>
+                <td>paulmusyokab2b@gmail.com</td>
+                <td>+1987-654-3210</td>
+            </tr>
+        </table>
+
+        <h2>Africa Development Bank</h2>
+        <img src="/api/placeholder/400/300" alt="Placeholder Image" width="400" height="300">
+
+        <h2>External Link</h2>
+        <p>Visit <a href="https://www.afdb.org/en" target="_blank">African Development Bank</a> for more information.</p>
+    </main>
+</body>
+</html>
